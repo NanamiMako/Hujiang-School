@@ -1,0 +1,690 @@
+body{
+    min-height: 100%;
+    color: #f4f4f4;
+    font-size: 12px;
+    background-color: #f4f4f4;
+    font-family: -apple-system,PingFang SC,Helvetica Neue,STHeiti,Microsoft Yahei,Tahoma,Simsun,sans-serif;
+}
+.sec1170 {
+    /*给所有的大的区块一个统一的样式*/
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .sec1200{
+      width: 1200px;
+    margin: 0 auto;
+  
+  }
+  
+  .topbox {
+    width: 100%;
+    background: #F8F8F8;
+    border-bottom: 1px solid #eee;
+    height: 30px;
+  }
+  .fr{
+      float: right;
+  }
+  .fl{
+      float: left;
+  }
+  a{
+    color:#999;
+    font-size: 12px;
+  }
+  a:hover{
+    color:#FE8C00;
+    text-decoration: none;
+  }
+  /*------------项目中要用到颜色*/
+  .c-orange{
+      color:#f76120; /*桔黄色*/
+  }
+  .c-blue{
+      color:#2bb8aa;/*蓝色：*/
+  }
+  .c-dgray{/*深灰色：*/
+      color:#333;
+  }
+  .c-gray{
+      color:#666 !important;/*灰色*/
+  }
+  .c-lgray{/*浅灰色：*/
+      color:#999 ;
+  }
+  /*----------项目中要用的边距*/
+  .mb10{
+      margin-bottom:10px; 
+  }
+  .mb25{
+      margin-bottom: 25px;
+  }
+  .mr10{
+      margin-right: 10px;
+  }
+  .ml20{
+      margin-left: 20px;
+  }
+  /*----------项目中要用的字体大小*/
+  .fs-14{
+      font-size: 14px;
+  }
+  
+  .fs-16{
+      font-size: 16px;
+  }
+  .fs-32{
+      font-size: 32px;
+  }
+  
+  .t-lh{
+      text-decoration: line-through;
+  }
+  a{
+      color:#666;
+  }
+  a:hover{
+      color:#a4dba4;
+  }
+  .clearfix{   /*用于清除父级元素因子元素浮动而产生的高度为0的情况 */
+      overflow: hidden;
+  }
+  .inline{	/*让一个元素变成行内块*/
+      display: inline-block;
+      vertical-align: top;
+  }
+  /*文字对齐*/
+  .tc{
+      text-align: center;
+  }
+  .cl{
+      clear: both;
+  }
+  /* head */
+  /*head.css
+整个项目中头部的样式 */
+/*-------------------------------------------------------顶部的导航*/
+.top {
+	height: 30px;
+}
+
+.basic li,
+.user li {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+
+.collect {
+	background: url("../images/star.png") no-repeat;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+}
+
+a:hover .collect {
+	background: url("../images/star-hover.png") no-repeat;
+}
+
+.toggleli {
+	/*表示一个有下拉内容的li*/
+	position: relative;
+}
+
+.togglea {
+	/*表示一个有下拉内容的a*/
+	display: inline-block;
+	position: relative;
+	z-index: 20;
+	/*覆盖同位置的元素*/
+	height: 30px;
+	border-left: 1px solid transparent;
+	/*transparent表示透明的*/
+	border-right: 1px solid transparent;
+	/*border-left与border-right设置左右间距*/
+	padding: 0 15px 0 15px;
+
+}
+
+/*获取焦点时： 给当前的li添加一个类 on
+1.改变a标记的背景色
+2.把togglemenu显示出来
+3.更改手机图片 雪碧图
+4.更改三角形
+*/
+.togglemenu {
+	/*表示下拉内容*/
+	display: none;
+	/*默认隐藏*/
+	background: #fff;
+	position: absolute;
+	top: 29px;
+	left: 0;
+	white-space: nowrap;
+	/*不要换行*/
+	border: 1px solid #ddd;
+	padding: 0 20px 10px 20px;
+	z-index: 3;
+}
+.togglemenu1 {
+	/*表示下拉内容*/
+	display: none;
+	/*默认隐藏*/
+	background: #fff;
+	position: absolute;
+	top: 29px;
+	left: -60px;
+	white-space: nowrap;
+	/*不要换行*/
+	border: 1px solid #ddd;
+	padding: 0 20px 10px 20px;
+	z-index: 3;
+}
+
+.user .togglemenu {
+	right: 0;
+	left: auto;
+}
+.toggleimg ul {
+	height: 150px;
+	border-bottom: 1px solid #ccc;
+}
+.toggleimg ul li{
+	float: left;
+}
+
+
+.toggleimg ul li a{
+	display: inline-block;
+	width: 92px;
+	height: 132px;
+	padding: 0 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+.toggleimg ul li a img{
+	width: 92px;
+	height: 92px;
+}
+.toggleimg .yy a{
+	font-size: 14px;
+	color: #ccc;
+	padding: 0 20px;
+	margin-top: 20px;
+
+}
+
+.togglemenu img {
+	display: block;
+}
+
+.togglemenu li {
+	float: none;
+}
+.bgimg li a{
+	display: inline-block;
+	padding-left: 20px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.on .togglea {
+	/*1.改变a标记的背景色，边框*/
+	background: #fff;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.on .togglemenu {
+	/*2.把togglemenu显示出来*/
+	display: block;
+}
+
+.on .icon-phone {
+	/*3.更改手机图片 雪碧图*/
+	background: url("../images/sp-main.png") -334px -161px no-repeat;
+	top: 6px;
+}
+
+.on .icon-tri {
+	/*4.更改三角形*/
+	border: 4px solid transparent;
+	border-bottom-color: #666;
+	top: 8px;
+}
+
+.icon-phone {
+	background: url("../images/sp-main.png") -334px -141px no-repeat;
+	width: 15px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 5px;
+}
+
+.icon-tri {
+	border: 4px solid transparent;
+	border-top-color: #666;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	top: 12px;
+	right: 5px;
+}
+
+.vertical-line {
+	/*垂直的线条*/
+	height: 12px;
+	width: 1px;
+	background: #ddd;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right: -1px;
+}
+
+/*-------------------------------------------------------顶部的导航 end*/
+/*-------------------------------------------------------顶部的搜索  */
+.logo {
+
+	height: 70px;
+}
+
+.logobox {
+
+	height: 55px;
+}
+
+.sec980 .logobox {
+	width: 265px;
+}
+
+
+.searchbox {
+	width: 488px;
+	height: 70px;
+}
+
+.promise {
+	width: 130px;
+	height: 40px;
+	margin-top: 40px;
+	margin-right: 20px;
+	font-size: 14px;
+	
+}
+
+
+
+/*-------------------------------------------------------顶部的搜索 end  */
+.copyright {
+    background-color: #fff;
+    text-align: center;
+  }
+  .copyright .first {
+    text-align: center;
+  }
+  .copyright .first p {
+    margin: 10px auto;
+    text-align: center;
+    display: inline-block;
+    border-right: 2px solid #7c6666;
+    padding: 2px 2px;
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+  }
+  .copyright .first a:hover {
+    color: #49b849;
+  }
+  .copyright .sec1200 {
+    margin: 10px auto;
+  }
+  .copyright .spri {
+    padding-bottom: 10px;
+  }
+  .copyright .spri a {
+    display: inline-block;
+    border: 1px solid #dddddd;
+    padding: 0 6px;
+    margin-right: 5px;
+  }
+  .copyright .spri a i {
+    display: inline-block;
+    padding: 1px 0 0 6px;
+    width: 12px;
+    height: 17px;
+    line-height: 17px;
+    background: url(../img/sprite.png) no-repeat;
+  }
+  .copyright .spri a .a {
+    background-position: -50px -44px;
+  }
+  .copyright .spri a .s {
+    background-position: -22px -24px;
+  }
+  .copyright .spri a .d {
+    background-position: -52px -20px;
+  }
+  .copyright .spri a .f {
+    background-position: -26px 0px;
+  }
+  .copyright .spri a .g {
+    background-position: -17px -44px;
+  }
+  .copyright .spri i.a:hover {
+    background: url(../img/sprite.png) no-repeat -33px -44px;
+  }
+  .copyright .spri i.s:hover {
+    background: url(../img/sprite.png) no-repeat 0px -24px;
+  }
+  .copyright .spri i.d:hover {
+    background: url(../img/sprite.png) no-repeat -52px 0px;
+  }
+  .copyright .spri i.f:hover {
+    background: url(../img/sprite.png) no-repeat 0px 0px;
+  }
+  .copyright .spri i.g:hover {
+    background: url(../img/sprite.png) no-repeat 0px -44px;
+  }
+
+  
+/* 路径开始 */
+.breadnav{
+    overflow: hidden;
+    color: #666;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+}
+.breadnav span{
+    float: left;
+    /* margin-left: 20px; */
+}
+.breadnav a{
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+.breadnav  .fayu{
+    padding: 0 12px;
+    margin-top: 10px;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    width: 40px;
+    border: 1px dashed #e5e5e5;
+    background-color: #fff;
+
+}
+.breadnav .cc{
+    padding: 8px 12px 0;
+    margin-top: -1px;
+    border: 1px dashed #ccc;
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    z-index: 999;
+}
+/* 路径结束 */
+ /* 筛选开始 */
+ .filter{
+     height: 310px;
+     position: relative;
+     overflow: hidden;
+     border: 1px solid #e5e5e5;
+     background-color: #fff;
+ }
+ .filter-item{
+     margin-left: 30px;
+     overflow: hidden;
+  border-bottom: 1px dotted #e5e5e5;
+ }
+ .filter-item:last-child{
+     margin-bottom: 15px;
+ }
+ .filter-item  .filter-item-tiltle{
+    width: 90px;
+    height: 48px;
+    color: #999;
+    line-height: 48px;
+ }
+ .filter-detail ul{
+     overflow: hidden;
+ }
+ .filter-detail ul li{
+     float: left;
+
+ }
+ .filter-detail ul li a{
+     font-size: 13px;
+    padding: 0 14px;
+    color: #494949;
+    list-style: none;
+    line-height: 48px;
+    cursor: pointer;
+
+ }
+ .filter-detail ul li a:hover{
+   color: #57bc4c;
+ }
+ .shouqi-btn{
+     position: absolute;
+     bottom: 0px;
+     left: 550px;
+     height: 30px;
+     line-height: 30px;
+     border: none;
+     background-color: #fff;
+     margin-top: 20px;
+}
+ .shouqi-btn:hover{
+    color: #57bc4c;
+ }
+/* 课程表开始 */
+.courselist-left{
+    overflow: hidden;
+
+    width: 950px;
+    border: 1px solid #e5e5e5;
+}
+.courselist-left .tab_list ul{
+    overflow: hidden;
+    padding-left: 20px;
+    border-bottom: 1px solid #e5e5e5;
+
+
+}
+.courselist-left .tab_list ul li{
+    float: left;
+    font-size: 14px;
+    width: 60px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    
+} 
+.courselist-left .tab_list ul .current{
+    border-bottom: 3px solid #57bc4c;
+}
+.icon-xiajiantou2 ,.icon-shangxiajiantou{
+    color: #a6a6a6;
+}
+.tab_con {
+    background-color: #fff;
+}
+.tab_con .course{
+
+    height: 180px;
+    margin-left: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+ 
+}
+.tab_con .course .coursepic{
+    margin-top: 40px;
+   
+
+}
+
+.tab_con .course .coursepic img{
+    display: inline-block;
+   vertical-align: center;
+    width: 148px;
+    height: 96px;
+}
+.tab_con .course .coursetext{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 600px;
+ 
+}
+.tab_con .course .coursetext .title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+.tab_con .course .coursetext .icon-play-circle{
+    cursor: pointer;
+    display: inline-block;
+ 
+    line-height: 32px;
+    font-size: 14px;
+    color: #57bc4c;
+    padding: 0 0 2px 4px;
+    font-weight: 300;
+}
+.tab_con .course .coursetext .free{
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+    color: #57bc4c;
+}
+.tab_con .course .coursetext .highlight{
+    display: inline-block;
+    color: #ff8c3a;
+    line-height: 32px;
+    font-size: 14px;
+
+}
+.tab_con .course .coursetext .highlight1{
+    display: inline-block;
+    color: #7d7d7d;
+    line-height: 32px;
+    font-size: 14px;
+}
+.tab_con .course .coursetext .no3 .pricesmall{
+    color: #ff8c3a;
+    font-size: 12px;
+    display: inline-block;
+     line-height: 32px;
+    font-size: 14px;
+}
+.tab_con .course .coursetext .no3 .pricenum{
+    color: #ff8c3a;
+    font-size: 20px !important;
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+}
+.tab_con .course .coursetext .no3 .pricedivide{
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #f85146;
+    background: #ffeae9;
+    border-radius: 2px;
+    line-height: 14px;
+    margin-left: 14px;
+    position: relative;
+    cursor: pointer;
+}
+
+.coursezixun{
+    margin-right: 20px;
+    margin-top: 60px;
+    
+}
+.coursezixun a{
+    display: block;
+}
+.coursezixun .zixundetail{
+    display: block;
+    font-size: 12px;
+    color: #57bc4c;
+    width: 64px;
+    height: 26px;
+    border: 1px solid #57bc4c;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 2px
+}
+.coursezixun .icon-shiting{
+    padding-left: 16px;
+    width: 50px;
+    height: 28px;
+    line-height: 28px;
+    color: #57bc4c;
+    font-size: 12px;
+}
+.coursezixun  .aa{
+    height: 28px;
+    line-height: 28px;
+    color: #57bc4c;
+    font-size: 12px;
+
+}
+.guessyoulike{
+    width: 230px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.guessyoulike h3{
+    padding: 0 20px;
+    color: #666;
+    line-height: 42px;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+}
+.guessyoulike .like1{
+    padding: 15px 15px;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+.guessyoulike img{
+  
+    width: 90px;
+    height: 60px;
+    display: block;
+    float: left;
+}
+.guessyoulike .likedetail{
+    width: 90px;
+    
+}
+.guessyoulike .likedetail .no1{
+    color: #494949;
+    font-size: 12px;
+   text-overflow: ellipsis;
+    overflow: hidden;
+    height: 31px;
+    display: block;
+    line-height: 15px;
+  
+
+}
+.guessyoulike .likedetail .no2{
+    display: block;
+    color: #f60;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.shopping{
+    margin-top: 20px;
+}
+
+
+

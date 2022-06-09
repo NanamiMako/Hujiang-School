@@ -1,0 +1,221 @@
+/* 左边部分 */
+.exam{
+    width: 100%;
+}
+
+.boxexam{
+    padding: 20px 15px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 25px;
+}
+ .exam .left{
+    float: left;
+  
+    width: 254px ;
+    height: 410px;
+
+    position: relative;
+}
+.e1{
+    position: absolute;
+    top: 58px;
+    left: 25px;
+}
+.e1 a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 102px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+   
+}
+.e2{
+   
+    position: absolute;
+    top: 220px;
+    left: 102px;
+
+}
+.e2 p{
+    color: white;
+    font-size: 14px;
+}
+ .coupon1{
+    background: url(../img/优惠券.png);
+    width: 219px;
+    height: 76px;
+    position: absolute;
+    top: 246px;
+    left: 22px;
+    }
+.coupon2{
+    background: url(../img/优惠券.png);
+    width: 219px;
+    height: 76px;
+    position: absolute;
+    top: 320px;
+    left: 22px;
+    
+
+}
+
+
+.coupon1 .price{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+ 
+    color: #e64e43;
+}
+ .coupon1 .jian{
+    font-size: 12px;
+    line-height: 25px;
+    color: #989ca3;
+    margin-top: -6px;
+  
+ 
+   
+}
+.pj{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+ .coupon1 .lq{
+    float: right;
+    width: 37px;
+    padding: 0 13px 2px 10px;
+    font-size: 13px;
+    color: black;
+    line-height: 14px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+  
+}
+.coupon2 div{
+    float: left;
+}
+
+.coupon2 .price{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+ 
+    color: #e64e43;
+}
+ .coupon2 .jian{
+    font-size: 12px;
+    line-height: 25px;
+    color: #989ca3;
+    margin-top: -6px;
+  
+ 
+   
+}
+.coupon2 .lq{
+    float: right;
+    width: 37px;
+    padding: 0 13px 2px 10px;
+    font-size: 13px;
+    color: black;
+    line-height: 14px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+  
+}
+/* 中间部分 */
+.center{
+    float: left;
+    width: 586px;
+    overflow: hidden;
+    padding-left: 25px;
+
+}
+.center h2{
+    color: #333d48;
+    font-size: 20px;
+    line-height: 20px;
+    height: 20px;
+    position: relative;
+    padding-left: 14px;
+    margin-bottom: 23px;
+    font-weight: 400;
+}
+.center li{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.center a{
+    /* display: block; */
+    color: #495561;
+    height:20px ;
+}
+.center a:hover{
+   color: #49b849;
+}
+
+
+.center img{
+    margin-bottom: 20px;
+    width: 182px;
+    height: 114px;
+    display: block;
+    border-radius: 2px;
+}
+/* 右边 */
+.right{
+    float: left;
+    width: 216px;
+    overflow: hidden;
+    padding-left: 25px;
+
+}
+.right h2{
+    color: #333d48;
+    font-size: 20px;
+    line-height: 20px;
+    height: 20px;
+    position: relative;
+    padding-left: 14px;
+    margin-bottom: 23px;
+    font-weight: 400;
+}
+.shuo{
+    padding-left: 14px;
+    display: inline-block;
+    }
+    .shuo img{
+        float: left;
+        display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 100%;
+    }
+    .ee{
+        padding-top: 5px;
+        padding-left: 10px;
+        float: left;
+    }
+    .icon-star-full{
+        color: #ff6600;
+    }
+    .cc{
+        margin-top: 5px;
+    }
+    .cc p{
+      
+        font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
+}
+ 

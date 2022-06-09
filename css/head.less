@@ -1,0 +1,333 @@
+  // 顶部导航栏开始
+  .topnav {
+    height: 40px;
+    line-height: 40px;
+    .navl li,
+    .navr li {
+      float: left;
+      padding: 0 15px;
+    }
+
+    .navl li:hover,
+    .navr li:hover {
+      background-color: #fff;
+    }
+
+    .item {
+      position: relative;
+      z-index: 999;
+
+      .toggle {
+
+        left: 0;
+        overflow: visible;
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #eee;
+        border-top: none;
+
+        .learninfo {
+
+          padding: 20px 13px 0 13px;
+
+          ul {
+            width: 732px;
+            border-bottom: 1px solid #eee;
+            overflow: hidden;
+
+            a {
+              display: block;
+              text-align: center;
+
+              img {
+                width: 92px;
+                height: 92px;
+                display: block;
+              }
+
+              span {
+                font-size: 14px;
+                color: #333;
+              }
+            }
+
+            a:hover span {
+              color: #49b849;
+            }
+          }
+        }
+
+        .hotword {
+          padding-left: 15px;
+
+          a {
+            font-size: 14px;
+            color: #999;
+          }
+
+          a:hover {
+            color: #49b849;
+          }
+        }
+
+        .learn-tools {
+          padding-top: 10px;
+          width: 115px;
+
+          li {
+            width: 100%;
+            padding: 0;
+
+            a {
+              letter-spacing: 1px;
+              display: block;
+              height: 28px;
+              line-height: 28px;
+              padding: 5px 15px 5px 40px;
+              background: url(../img/sprit.png) no-repeat;
+              background-size: 19px;
+            }
+
+            .wx {
+              background-position: 7px -404px;
+            }
+
+            .cc {
+              background-position: 7px -20px;
+            }
+
+            .xd {
+              background-position: 6px -611px;
+            }
+
+            .tlk {
+              background-position: 6px -463px;
+            }
+
+            .tk {
+              background-position: 6px -1083px;
+            }
+          }
+
+          li:hover {
+            background-color: #f2f2f2;
+          }
+        }
+
+        .lesson {
+          padding-top: 10px;
+          width: 188px;
+
+          li:hover {
+            background-color: #f2f2f2;
+          }
+        }
+
+        .notice {
+          padding: 10px 0;
+          width: 152px;
+          text-align: center;
+          overflow: hidden;
+
+          li {
+            padding: 0;
+            width: 100%;
+          }
+
+          li:hover {
+            background-color: #f2f2f2;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  // 顶部导航栏结束
+
+  // 顶部横幅开始
+  .top-banner {
+    height: 140px;
+    position: relative;
+    min-width: 1200px;
+    overflow: hidden;
+
+    .imgbox {
+      position: absolute;
+      left: 50%;
+      margin-left: -960px;
+    }
+  }
+
+  // 顶部横幅结束
+.sec1200{width: 1200px;margin: 0 auto;}
+  // 搜索框区域开始
+  .searchbox-w{
+    // width: 100px;
+    background-color: #fff;
+
+  .searchbox {
+    height: 104px;
+    .logo {
+      img {
+        width: 216px;
+        height: auto;
+        float: left;
+      }
+    }
+
+    .search-area {
+      width: 580px;
+      padding-top: 28px;
+      margin-left: 25px;
+      height: 40px;
+      position: relative;
+
+      i {
+        position: absolute;
+        display: inline-block;
+        top: 41px;
+        left: 20px;
+        color: #ABABAB;
+      }
+
+      input {
+        height: 40px;
+        width: 100%;
+        padding-left: 45px;
+        outline: none;
+        border: 2px solid #49b849;
+        border-radius: 40px;
+        background-color: #f4f4f4;
+      }
+
+      ::-webkit-input-placeholder {
+        color: #ABABAB;
+        font-family: 'yaHei';
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      .searchbtn {
+        display: block;
+        position: absolute;
+        right: -49px;
+        top: 28px;
+        font-size: 16px;
+        height: 44px;
+        line-height: 44px;
+        background-color: #49b849;
+        color: #fff;
+        padding: 0 35px;
+        border-radius: 0 20px 20px 0;
+      }
+
+      .searchbtn:hover {
+        background-color: #a4dba4;
+      }
+
+      .hotword-list {
+        li {
+          float: left;
+          margin: 5px 15px;
+
+          a:hover {
+            color: #49b849;
+          }
+        }
+      }
+    }
+
+    .btn {
+      padding-left: 40px;
+      padding-top: 28px;
+      height: 40px;
+      line-height: 40px;
+
+      .btn1 {
+        border: 1px solid #e0e3e8;
+        margin: 0 10px;
+        float: left;
+        padding: 0 25px;
+        border-radius: 20px;
+        font-size: 14px;
+        color: #858a91;
+        cursor: pointer;
+      }
+    }
+  }
+}
+  // 搜索框区域结束
+  //底部版权开始
+  .copyright {
+    background-color: #fff;
+    text-align: center;
+    .first {
+      text-align: center;
+      p {
+        margin: 10px auto;
+        text-align: center;
+        display: inline-block;
+        border-right: 2px solid #7c6666;
+        padding: 2px 2px;
+        font-size: 12px;
+        height: 12px;
+        line-height: 12px;
+      }
+      a:hover {
+        color: #49b849;
+      }
+    }
+    .sec1200 {
+      margin: 10px auto;
+    }
+    .spri {
+      padding-bottom: 10px;
+      a {
+        display: inline-block;
+        border: 1px solid #dddddd;
+        padding: 0 6px;
+        margin-right: 5px;
+        i {
+          display: inline-block;
+          padding: 1px 0 0 6px;
+          width: 12px;
+          height: 17px;
+          line-height: 17px;
+          background: url(../img/sprite.png) no-repeat;
+        }
+        .a {
+          background-position: -50px -44px;
+        }
+        .s {
+          background-position: -22px -24px;
+        }
+        .d {
+          background-position: -52px -20px;
+        }
+        .f {
+          background-position: -26px -0px;
+        }
+        .g {
+          background-position: -17px -44px;
+        }
+      }
+      i.a:hover {
+        background: url(../img/sprite.png) no-repeat -33px -44px;
+      }
+      i.s:hover {
+        background: url(../img/sprite.png) no-repeat -0px -24px;
+      }
+      i.d:hover {
+        background: url(../img/sprite.png) no-repeat -52px -0px;
+      }
+      i.f:hover {
+        background: url(../img/sprite.png) no-repeat -0px -0px;
+      }
+      i.g:hover {
+        background: url(../img/sprite.png) no-repeat -0px -44px;
+      }
+    }
+  }
+  //底部版权结束

@@ -1,0 +1,561 @@
+.sec1170 {
+    /*给所有的大的区块一个统一的样式*/
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .sec1200{
+      width: 1200px;
+    margin: 0 auto;
+  
+  }
+  
+  .topbox {
+    width: 100%;
+    background: #F8F8F8;
+    border-bottom: 1px solid #eee;
+    height: 30px;
+  }
+  .fr{
+      float: right;
+  }
+  .fl{
+      float: left;
+  }
+  a{
+    color:#999;
+    font-size: 12px;
+  }
+  a:hover{
+    color:#FE8C00;
+    text-decoration: none;
+  }
+  /*------------项目中要用到颜色*/
+  .c-orange{
+      color:#f76120; /*桔黄色*/
+  }
+  .c-blue{
+      color:#2bb8aa;/*蓝色：*/
+  }
+  .c-dgray{/*深灰色：*/
+      color:#333;
+  }
+  .c-gray{
+      color:#666 !important;/*灰色*/
+  }
+  .c-lgray{/*浅灰色：*/
+      color:#999 ;
+  }
+  /*----------项目中要用的边距*/
+  .mb10{
+      margin-bottom:10px; 
+  }
+  .mb25{
+      margin-bottom: 25px;
+  }
+  .mr10{
+      margin-right: 10px;
+  }
+  .ml20{
+      margin-left: 20px;
+  }
+  /*----------项目中要用的字体大小*/
+  .fs-14{
+      font-size: 14px;
+  }
+  
+  .fs-16{
+      font-size: 16px;
+  }
+  .fs-32{
+      font-size: 32px;
+  }
+  
+  .t-lh{
+      text-decoration: line-through;
+  }
+  a{
+      color:#666;
+  }
+  a:hover{
+      color:#a4dba4;
+  }
+  .clearfix{   /*用于清除父级元素因子元素浮动而产生的高度为0的情况 */
+      overflow: hidden;
+  }
+  .inline{	/*让一个元素变成行内块*/
+      display: inline-block;
+      vertical-align: top;
+  }
+  /*文字对齐*/
+  .tc{
+      text-align: center;
+  }
+  .cl{
+      clear: both;
+  }
+  /*-------------------------------------------------------顶部的导航*/
+.top {
+	height: 30px;
+}
+
+.basic li,
+.user li {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+
+
+
+.toggleli {
+	/*表示一个有下拉内容的li*/
+	position: relative;
+}
+
+.togglea {
+	/*表示一个有下拉内容的a*/
+	display: inline-block;
+	position: relative;
+	z-index: 20;
+	/*覆盖同位置的元素*/
+	height: 30px;
+	border-left: 1px solid transparent;
+	/*transparent表示透明的*/
+	border-right: 1px solid transparent;
+	/*border-left与border-right设置左右间距*/
+	padding: 0 15px 0 15px;
+
+}
+
+/*获取焦点时： 给当前的li添加一个类 on
+1.改变a标记的背景色
+2.把togglemenu显示出来
+3.更改手机图片 雪碧图
+4.更改三角形
+*/
+.togglemenu {
+	/*表示下拉内容*/
+	display: none;
+	/*默认隐藏*/
+	background: #fff;
+	position: absolute;
+	top: 29px;
+	left: 0;
+
+	/*不要换行*/
+	border: 1px solid #ddd;
+	padding: 0 20px 10px 20px;
+	z-index: 3;
+}
+.togglemenu1 {
+	/*表示下拉内容*/
+	display: none;
+	/*默认隐藏*/
+	background: #fff;
+	position: absolute;
+	top: 29px;
+	left: -60px;
+
+	/*不要换行*/
+	border: 1px solid #ddd;
+	padding: 0 20px 10px 20px;
+	z-index: 3;
+}
+
+.user .togglemenu {
+	right: 0;
+	left: auto;
+}
+.toggleimg ul {
+	height: 150px;
+	border-bottom: 1px solid #ccc;
+}
+.toggleimg ul li{
+	float: left;
+}
+
+
+.toggleimg ul li a{
+	display: inline-block;
+	width: 92px;
+	height: 132px;
+	padding: 0 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+.toggleimg ul li a img{
+	width: 92px;
+	height: 92px;
+}
+.toggleimg .yy a{
+	font-size: 14px;
+	color: #ccc;
+	padding: 0 20px;
+	margin-top: 20px;
+
+}
+
+.togglemenu img {
+	display: block;
+}
+
+.togglemenu li {
+	float: none;
+}
+.bgimg li a{
+	display: inline-block;
+	padding-left: 20px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.on .togglea {
+	/*1.改变a标记的背景色，边框*/
+	background: #fff;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.on .togglemenu {
+	/*2.把togglemenu显示出来*/
+	display: block;
+}
+/*-------------------------------------------------------顶部的导航 end*/
+/* 底部版权开始 ---------*/
+.copyright {
+    background-color: #fff;
+    text-align: center;
+  }
+  .copyright .first {
+    text-align: center;
+  }
+  .copyright .first p {
+    margin: 10px auto;
+    text-align: center;
+    display: inline-block;
+    border-right: 2px solid #7c6666;
+    padding: 2px 2px;
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+  }
+  .copyright .first a:hover {
+    color: #49b849;
+  }
+  .copyright .sec1200 {
+    margin: 10px auto;
+  }
+  .copyright .spri {
+    padding-bottom: 10px;
+  }
+  .copyright .spri a {
+    display: inline-block;
+    border: 1px solid #dddddd;
+    padding: 0 6px;
+    margin-right: 5px;
+  }
+  .copyright .spri a i {
+    display: inline-block;
+    padding: 1px 0 0 6px;
+    width: 12px;
+    height: 17px;
+    line-height: 17px;
+    background: url(../img/sprite.png) no-repeat;
+  }
+  .copyright .spri a .a {
+    background-position: -50px -44px;
+  }
+  .copyright .spri a .s {
+    background-position: -22px -24px;
+  }
+  .copyright .spri a .d {
+    background-position: -52px -20px;
+  }
+  .copyright .spri a .f {
+    background-position: -26px 0px;
+  }
+  .copyright .spri a .g {
+    background-position: -17px -44px;
+  }
+  .copyright .spri i.a:hover {
+    background: url(../img/sprite.png) no-repeat -33px -44px;
+  }
+  .copyright .spri i.s:hover {
+    background: url(../img/sprite.png) no-repeat 0px -24px;
+  }
+  .copyright .spri i.d:hover {
+    background: url(../img/sprite.png) no-repeat -52px 0px;
+  }
+  .copyright .spri i.f:hover {
+    background: url(../img/sprite.png) no-repeat 0px 0px;
+  }
+  .copyright .spri i.g:hover {
+    background: url(../img/sprite.png) no-repeat 0px -44px;
+  }
+  /* 底部版权结束 */
+  /* 课程简介开始 */
+  .bg{
+      padding-top: 20px;
+      width: 100%;
+      height: 351px;
+      background: url(../img/bg001.jpg) ;
+  }
+  .bg .wrapper{
+      background-color: white;
+      overflow: hidden;
+      padding-left: 20px;
+  }
+  .bg .breadcrumb{
+      padding-top: 15px;
+    font-size: 12px;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+  }
+  .bg .breadcrumb span{
+      display: inline-block;
+      width: 48px;
+      text-align: center;
+      color: #666;
+  }
+  .bg .breadcrumb span a{
+      text-align: center;
+      color: #666;
+  }
+  .leftarea{
+    width: 430px;
+    overflow: hidden;
+
+  }
+  .leftarea img{
+    width: 430px;
+    height: auto;
+  }
+  .leftarea .jigou{
+    color: #9f9f9f;
+  }
+  .leftarea span{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    
+    
+  }
+  .leftarea .share ,.leftarea .collect{
+    margin-left: 20px;
+  }
+  .rightarea {
+    margin-left: 20px;
+  }
+  .rightarea .title{
+    font-size: 18px;
+    color: #333;
+    font-weight: 800;
+    height: 20px;
+  }
+  .rightarea .subtitle{
+    color: #666;
+    height: 25px;
+    line-height: 25px;
+  }
+  .rightarea .price{
+    width: 680px;
+    background-color: #f6f6f6;
+  }
+  .rightarea .price .small{
+    display: inline-block;
+    color: #ff8c3a;
+    padding-left: 24px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 12px;
+
+  }
+  .rightarea .price .big{
+    display: inline-block;
+    color: #ff8c3a;
+    line-height: 60px;
+    height: 60px;
+    font-size: 25px;
+  }
+  .p-title{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .btnarea .buynow{
+    display: inline-block;
+    width: 182px;
+    height: 44px;
+    line-height: 44px;
+    background: #ff8c3a;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+
+  }
+  .btnarea .consult{
+    display: inline-block;
+    width: 128px;
+    line-height: 42px;
+    height: 42px;
+    border-radius: 3px;
+    border: 1px solid #ff8c3a;
+    color: #ff8c3a;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .rightarea .tips {
+    color: #9f9f9f;
+  }
+  .rightarea .tips span{
+    display: inline-block;
+    margin-right: 15px;
+    height: 30px;
+    line-height: 30px;
+
+  }
+  .navtab .detailNavBar{
+    overflow: hidden;
+    background: white;
+
+  }
+  .navtab .detailNavBar ul{
+    overflow: hidden;
+    color: #494949;
+    font-size: 16px;
+  }
+  .navtab .detailNavBar li{
+    float: left;
+    width: 175px;
+    text-align: center;
+    float: left;
+    width: 175px;
+    height: 51px;
+    line-height: 51px;
+  }
+  .navtab .detailNavBar .current{
+    color: #fff;
+    background: #49b849;
+    height: 52px;
+  }
+  .tabcontent{
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .tabcontent .tab_con .item{
+    padding: 30px 40px;
+    width: 860px;
+    border: 1px solid #e5e5e5;
+  }
+  .tabcontent .tab_con .no1 p{
+    color: rgb(255, 0, 0);
+    line-height: 1.5;
+    font-size: 14px;
+
+  }
+  .tabcontent .tab_con .no2  .all{
+    background: #49b849;
+    color: #fff;
+    height: 37px;
+    font-size: 14px;
+    text-align: center;
+    color:white;
+    line-height: 35px;
+    width: 105px;
+      margin-left: 300px;
+    cursor: pointer;
+    
+  }
+  .tabcontent .tab_con .no2 .unitcount{
+    width: 87px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    background: url(../img/btn-bullet.png) no-repeat;
+    padding-left: 14px;
+ 
+  }
+  .unitNumTotal{
+    display: inline-block;
+    background: url(../img/menu.png) 50% no-repeat;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #49b849;
+    vertical-align: middle;
+    margin: 0 10px 0 -18px;
+    text-align: center;
+
+  }
+  .tabcontent .tab_con .no2 .try{
+    font-size: 14px;
+    color: #666;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .tabcontent .tab_con .no3 .title{
+    color: #5fb740;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .tabcontent .tab_con .no3 .ping{
+    color: #ababab;
+    padding: 20px 0 22px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+  }
+  /* 猜你喜欢 */
+  .guessyoulike{
+    width: 230px;
+    border: 1px solid #e5e5e5;
+
+}
+.guessyoulike h3{
+    padding: 0 20px;
+    color: #666;
+    line-height: 42px;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+}
+.guessyoulike .like1{
+    padding: 15px 15px;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+.guessyoulike img{
+  
+    width: 90px;
+    height: 60px;
+    display: block;
+    float: left;
+}
+.guessyoulike .likedetail{
+    width: 90px;
+    
+}
+.guessyoulike .likedetail .no1{
+    color: #494949;
+    font-size: 12px;
+   text-overflow: ellipsis;
+    overflow: hidden;
+    height: 31px;
+    display: block;
+    line-height: 15px;
+  
+
+}
+.guessyoulike .likedetail .no2{
+    display: block;
+    color: #f60;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+  

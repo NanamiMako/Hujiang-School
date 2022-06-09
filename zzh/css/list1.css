@@ -1,0 +1,441 @@
+body {
+    background-color: #f5f5f5;
+}
+
+
+/* 路径开始 */
+
+.breadnav {
+    overflow: hidden;
+    color: #666;
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.breadnav span {
+    float: left;
+}
+
+.breadnav a {
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.breadnav .fayu {
+    margin-top: 17px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    width: 50px;
+    padding: 0 8px 0 12px;
+    background-color: #fff;
+    border: 1px dotted #e5e5e5;
+}
+
+.breadnav .Eng {
+    margin-top: 17px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    width: 70px;
+    padding: 0 8px 0 12px;
+    background-color: #fff;
+    border: 1px dotted #e5e5e5;
+}
+
+.breadnav .bc,
+.breadnav .cc {
+    margin-top: -1px;
+    border: 1px dashed #e5e5e5;
+    position: absolute;
+    z-index: 999;
+}
+
+.breadnav .bc li {
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+}
+
+.breadnav .cc li {
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+}
+
+i.iconfont2 {
+    margin-right: 0px;
+    font-family: "iconfont" !important;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 路径结束 */
+
+
+/* 筛选开始 */
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.filter {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+.sec1177 {
+    /*给所有的大的区块一个统一的样式*/
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.filter-item {
+    margin-left: 30px;
+    overflow: hidden;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.filter-item .filter-item-tiltle {
+    width: 90px;
+    height: 48px;
+    color: #999;
+    line-height: 48px;
+}
+
+.filter-detail ul {
+    overflow: hidden;
+}
+
+.filter-detail ul li {
+    float: left;
+}
+
+.filter-detail ul li a {
+    font-size: 13px;
+    padding: 0 14px;
+    color: #494949;
+    list-style: none;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.filter-detail ul li a:hover {
+    color: #57bc4c;
+}
+
+.shouqi-btn {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.shouqi-btn:hover {
+    color: #57bc4c;
+}
+
+
+/* 筛选结束 */
+
+
+/* 课程表开始 */
+
+.courselist {
+    position: relative;
+}
+
+.courselist-left {
+    position: relative;
+    margin-top: 25px;
+    overflow: hidden;
+    width: 950px;
+    background-color: #fff;
+}
+
+.courselist-left .tab_list ul {
+    overflow: hidden;
+    padding-left: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.courselist-left .tab_list ul li {
+    float: left;
+    font-size: 14px;
+    width: 60px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.courselist-left .tab_list ul .current {
+    border-bottom: 3px solid #57bc4c;
+}
+
+.icon-xiajiantou2,
+.icon-shangxiajiantou {
+    color: #a6a6a6;
+}
+
+.tab_con .course {
+    height: 180px;
+    margin-left: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tab_con .course .coursepic {
+    margin-top: 40px;
+}
+
+.tab_con .course .coursepic img {
+    display: inline-block;
+    vertical-align: center;
+    width: 148px;
+    height: 96px;
+}
+
+.tab_con .course .coursetext {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 600px;
+}
+
+.tab_con .course .coursetext .title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.tab_con .course .coursetext .icon-play-circle {
+    cursor: pointer;
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+    color: #57bc4c;
+    padding: 0 0 2px 4px;
+    font-weight: 300;
+}
+
+.tab_con .course .coursetext .free {
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+    color: #57bc4c;
+}
+
+.tab_con .course .coursetext .highlight {
+    display: inline-block;
+    color: #ff8c3a;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.tab_con .course .coursetext .highlight1 {
+    display: inline-block;
+    color: #7d7d7d;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.tab_con .course .coursetext .no3 .pricesmall {
+    color: #ff8c3a;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.tab_con .course .coursetext .no3 .pricenum {
+    color: #ff8c3a;
+    font-size: 20px !important;
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.tab_con .course .coursetext .no3 .pricedivide {
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #f85146;
+    background: #ffeae9;
+    border-radius: 2px;
+    line-height: 14px;
+    margin-left: 14px;
+    position: relative;
+    cursor: pointer;
+}
+
+.coursezixun {
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.coursezixun a {
+    display: block;
+}
+
+.coursezixun .zixundetail {
+    display: block;
+    font-size: 12px;
+    color: #57bc4c;
+    width: 64px;
+    height: 26px;
+    border: 1px solid #57bc4c;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 2px
+}
+
+.coursezixun .icon-shiting {
+    padding-left: 16px;
+    width: 50px;
+    height: 28px;
+    line-height: 28px;
+    color: #57bc4c;
+    font-size: 12px;
+}
+
+.coursezixun .aa {
+    height: 28px;
+    line-height: 28px;
+    color: #57bc4c;
+    font-size: 12px;
+}
+
+
+/* 课程表  结束 */
+
+
+/* 侧栏  开始 */
+
+.right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 228px;
+    margin-right: 0px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+
+.right .love {
+    width: 228px;
+    height: 42px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.right h2 {
+    float: left;
+    font-weight: normal;
+    width: 190px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 20px;
+}
+
+.right ul.sidebar {
+    width: 230px;
+}
+
+.right ul.sidebar li {
+    padding: 16px 19px 13px 20px;
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.right ul.sidebar li img {
+    float: left;
+    width: 90px;
+    height: 60px;
+}
+
+.right .sidebar li .base {
+    float: left;
+    width: 92px;
+    color: #494949;
+    margin-left: 8px;
+}
+
+.right .sidebar li .tariff {
+    float: left;
+    width: 92px;
+    color: #f60;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 12px;
+}
+
+.salute {
+    position: absolute;
+    top: 510px;
+    right: 0px;
+}
+
+
+/* 侧栏  结束 */
+
+
+/* 分页器 开始 */
+
+.paging {
+    float: left;
+    width: 948px;
+}
+
+.paging ul {
+    position: relative;
+    display: block;
+    width: 373px;
+    margin: 0 auto;
+}
+
+.paging ul li {
+    float: left;
+    margin: 20px 4px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+}
+
+.paging ul li.curr {
+    background-color: #4eb64f;
+    border: 1px solid #4eb64f;
+}
+
+.paging ul li.dot {
+    background-color: #f5f5f5;
+    border: none;
+    position: relative;
+    top: -3px;
+}
+
+.paging ul li.page {
+    width: 95px;
+}
+
+
+/* 分页器 结束 */

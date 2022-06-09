@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        height: 400px;
+        width: 400px;
+        background-color: red;
+    }
+</style>
+
+<body>
+    <div>
+    </div>
+    <input type="button" name="" value="展开" id="anniu">
+
+    <script>
+        var zk = document.getElementById("anniu")
+        var div = document.getElementsByTagName("div")[0]
+        var xh = 400
+        zk.onclick = function () {
+            if (xh == 400) {
+                xh = 800
+                div.style.height = xh + "px"
+                zk.value = "收起"
+            }
+            else{
+                xh = 400
+                div.style.height = xh + "px"
+                zk.value = "展开"
+            }
+
+
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+.breadCrumb {
+  height: 60px;
+  line-height: 60px;
+}
+.breadCrumb ul li {
+  float: left;
+}
+.breadCrumb ul li i {
+  font-size: 12px;
+}

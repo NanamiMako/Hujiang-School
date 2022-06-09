@@ -1,0 +1,403 @@
+.c-nav {
+  min-width: 1200px;
+  position: relative;
+  clear: both;
+  background-color: #49b849;
+  font-size: 14px;
+  color: #fff;
+}
+.c-nav .c-navbar {
+  width: 1200px;
+  margin: 0 auto;
+  height: 40px;
+}
+.c-nav .c-navbar .dt {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  width: 250px;
+  text-align: center;
+  background-color: #2f872f;
+}
+.c-nav .c-navbar .dt-toggle {
+  width: 250px;
+  position: absolute;
+  background-color: #fff;
+  top: 40px;
+  z-index: 999;
+}
+.c-nav .c-navbar .dt-toggle dd {
+  border-left: 4px solid #fff;
+  padding: 0 20px;
+  line-height: 34px;
+  height: 34px;
+}
+.c-nav .c-navbar .dt-toggle dd .type-t {
+  font-size: 15px;
+  color: #4c4c4c;
+}
+.c-nav .c-navbar .dt-toggle dd i {
+  color: #ccc;
+  font-size: 12px;
+}
+.c-nav .c-navbar .dt-toggle dd .type-i {
+  color: #949494;
+  font-size: 12px;
+}
+.c-nav .c-navbar .dt-toggle dd .type-i:hover {
+  text-decoration: underline;
+}
+.c-nav .c-navbar .dt-toggle dd:hover {
+  background-color: #fafafa;
+  border-left-color: #5bba52;
+}
+.c-nav .c-navbar .dt-toggle dd:hover a {
+  color: #58bc4c;
+}
+.c-nav .c-navbar li {
+  float: left;
+  line-height: 40px;
+}
+.c-nav .c-navbar li a {
+  display: inline-block;
+  color: #fff;
+  padding: 0 30px;
+}
+.c-nav .c-navbar li a:hover {
+  background-color: #7fcd7f;
+}
+.banner {
+  margin: 0 auto;
+  overflow: hidden;
+  height: 440px;
+  position: relative;
+}
+.banner .bannerlist {
+  width: 1920px;
+  height: 440px;
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+  overflow: hidden;
+}
+.banner .bannerlist .banner-item {
+  width: 60000px;
+  position: absolute;
+  left: 0px;
+  transition: left 0.8s;
+}
+.banner .bannerlist .banner-item li {
+  float: left;
+}
+.banner .bannerlist .user-info-area {
+  position: absolute;
+  top: 45px;
+  right: 360px;
+  width: 148px;
+  height: 300px;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+}
+.banner .bannerlist .user-info-area img.head {
+  position: relative;
+  left: 50%;
+  margin-left: -32px;
+  padding-top: 43px;
+}
+.banner .bannerlist .user-info-area h4 {
+  text-align: center;
+  padding: 15px 0 36px;
+  font-size: 12px;
+  color: #989ca3;
+}
+.banner .bannerlist .user-info-area .z {
+  display: inline-block;
+  width: 108px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  margin-left: 19px;
+  border: 1px solid #FF5C15;
+  border-radius: 17px;
+}
+.banner .bannerlist .user-info-area img.new {
+  width: 67px;
+  height: 24px;
+  position: absolute;
+  left: 102px;
+  top: 177px;
+}
+.banner .bannerlist .user-info-area img.free {
+  display: block;
+  width: 124px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.banner .bannerlist .ad-nav {
+  width: 948px;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  left: 610px;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 9999999;
+}
+.banner .bannerlist .ad-nav li {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  height: 46px;
+  line-height: 46px;
+  position: relative;
+  display: inline-block;
+  width: 155px;
+  color: #fff;
+}
+.banner .bannerlist .ad-nav li a {
+  color: #fff;
+}
+.banner .bannerlist .ad-nav li.cur {
+  background-color: #49b849;
+}
+.banner .bannerlist .ad-nav li:after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  width: 1px;
+  right: 0;
+  top: 9px;
+  bottom: 9px;
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+}
+.banner .bannerlist .ad-nav li.cur:after {
+  width: 0;
+}
+.banner .bannerlist .ad-nav li:last-child:after {
+  width: 0;
+}
+.qyhz {
+  height: 140px;
+  position: relative;
+  left: 50%;
+  width: 1200px;
+  margin-left: -600px;
+  background-color: #fff;
+  margin-top: 65px;
+}
+.qyhz h5 span {
+  display: inline-block;
+  height: 20px;
+  width: 4px;
+  background: #49b849;
+  border-radius: 2px;
+  position: relative;
+  top: 2px;
+}
+.qyhz h5 {
+  font-weight: 900;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.why-choose {
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.why-choose h5 {
+  position: relative;
+  text-align: center;
+  color: #333d48;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.why-choose h5 a {
+  line-height: 25px;
+  display: inline-block;
+}
+.why-choose h5::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background-color: #49b849;
+  border-radius: 3px;
+  left: 50%;
+  margin-left: -25px;
+  bottom: -11px;
+}
+.why-choose .pic-bot ul {
+  display: flex;
+  padding-left: 30px;
+}
+.why-choose .pic-bot ul li {
+  width: 300px;
+  float: left;
+}
+.why-choose .pic-bot ul li img {
+  width: 60px;
+  height: 54px;
+  float: left;
+  margin-right: 25px;
+}
+.why-choose .pic-bot ul li h3 {
+  font-size: 18px;
+  line-height: 24px;
+  height: 24px;
+  color: #333d48;
+  white-space: nowrap;
+}
+.why-choose .pic-bot ul li p {
+  color: #989ca3;
+  margin-top: 6px;
+  line-height: 16px;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.second a:hover {
+  color: #49b849;
+}
+.sidebar {
+  width: 64px;
+  height: 350px;
+  position: fixed;
+  top: 300px;
+  right: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.sidebar ul li {
+  width: 64px;
+  height: 69px;
+  border-bottom: 1px solid #c8c8c8;
+  border-top: 1px solid #c8c8c8;
+  background-color: white;
+}
+.sidebar ul li.first i {
+  display: block;
+  width: 44px;
+  height: 38px;
+  margin: 0px 10px;
+  background: url(../img/btn-registry.png) no-repeat bottom center;
+}
+.sidebar ul li.first p {
+  color: orange;
+  font-size: 12px;
+  text-align: center;
+}
+.sidebar ul li.two i {
+  display: block;
+  width: 44px;
+  height: 28px;
+  margin: 0px 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+.sidebar ul li.two p {
+  color: green;
+  font-size: 12px;
+  text-align: center;
+}
+.sidebar ul li.three a {
+  display: block;
+  width: 48px;
+  font-size: 12px;
+  color: black;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.sidebar ul li.three i {
+  display: block;
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sidebar ul li.four a {
+  display: block;
+  width: 48px;
+  font-size: 12px;
+  color: black;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.sidebar ul li.four i {
+  display: block;
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sidebar ul li.finally i {
+  display: block;
+  font-size: 30px;
+  color: black;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.sidebar ul li.finally a {
+  font-size: 12px;
+  color: black;
+  /* margin-top: 10px; */
+  text-align: center;
+  display: block;
+  display: none;
+  color: green;
+}
+.sidebar a:hover {
+  text-decoration: none;
+}
+.toggleli {
+  /*表示一个有下拉内容的li*/
+  position: relative;
+}
+.togglea {
+  /*表示一个有下拉内容的a*/
+  display: inline-block;
+  position: relative;
+  z-index: 20;
+  /*覆盖同位置的元素*/
+  /* border-left: 1px solid transparent; */
+  /*transparent表示透明的*/
+  border-right: 1px solid transparent;
+  /*border-left与border-right设置左右间距*/
+  /* padding: 0 10px 0 10px; */
+}
+/*获取焦点时： 给当前的li添加一个类 on
+1.改变a标记的背景色
+2.把togglemenu显示出来
+3.更改手机图片 雪碧图
+4.更改三角形
+*/
+.togglemenu {
+  /*表示下拉内容*/
+  display: none;
+  /*默认隐藏*/
+  position: absolute;
+  top: -67px;
+  right: 67px;
+  /*不要换行*/
+  /* padding: 0 20px 10px 20px; */
+  z-index: 3;
+}
+.on .togglea {
+  /*1.改变a标记的背景色，边框*/
+  color: forestgreen;
+}
+.on .togglemenu {
+  /*2.把togglemenu显示出来*/
+  display: block;
+}

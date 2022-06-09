@@ -1,0 +1,278 @@
+.topnav {
+  height: 40px;
+  line-height: 40px;
+}
+.topnav .navl li,
+.topnav .navr li {
+  float: left;
+  padding: 0 15px;
+}
+.topnav .navl li:hover,
+.topnav .navr li:hover {
+  background-color: #fff;
+}
+.topnav .item {
+  position: relative;
+  z-index: 999;
+}
+.topnav .item .toggle {
+  left: 0;
+  overflow: visible;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-top: none;
+}
+.topnav .item .toggle .learninfo {
+  padding: 20px 13px 0 13px;
+}
+.topnav .item .toggle .learninfo ul {
+  width: 732px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+.topnav .item .toggle .learninfo ul a {
+  display: block;
+  text-align: center;
+}
+.topnav .item .toggle .learninfo ul a img {
+  width: 92px;
+  height: 92px;
+  display: block;
+}
+.topnav .item .toggle .learninfo ul a span {
+  font-size: 14px;
+  color: #333;
+}
+.topnav .item .toggle .learninfo ul a:hover span {
+  color: #49b849;
+}
+.topnav .item .toggle .hotword {
+  padding-left: 15px;
+}
+.topnav .item .toggle .hotword a {
+  font-size: 14px;
+  color: #999;
+}
+.topnav .item .toggle .hotword a:hover {
+  color: #49b849;
+}
+.topnav .item .toggle .learn-tools {
+  padding-top: 10px;
+  width: 115px;
+}
+.topnav .item .toggle .learn-tools li {
+  width: 100%;
+  padding: 0;
+}
+.topnav .item .toggle .learn-tools li a {
+  letter-spacing: 1px;
+  display: block;
+  height: 28px;
+  line-height: 28px;
+  padding: 5px 15px 5px 40px;
+  background: url(../img/sprit.png) no-repeat;
+  background-size: 19px;
+}
+.topnav .item .toggle .learn-tools li .wx {
+  background-position: 7px -404px;
+}
+.topnav .item .toggle .learn-tools li .cc {
+  background-position: 7px -20px;
+}
+.topnav .item .toggle .learn-tools li .xd {
+  background-position: 6px -611px;
+}
+.topnav .item .toggle .learn-tools li .tlk {
+  background-position: 6px -463px;
+}
+.topnav .item .toggle .learn-tools li .tk {
+  background-position: 6px -1083px;
+}
+.topnav .item .toggle .learn-tools li:hover {
+  background-color: #f2f2f2;
+}
+.topnav .item .toggle .lesson {
+  padding-top: 10px;
+  width: 188px;
+}
+.topnav .item .toggle .lesson li:hover {
+  background-color: #f2f2f2;
+}
+.topnav .item .toggle .notice {
+  padding: 10px 0;
+  width: 152px;
+  text-align: center;
+  overflow: hidden;
+}
+.topnav .item .toggle .notice li {
+  padding: 0;
+  width: 100%;
+}
+.topnav .item .toggle .notice li:hover {
+  background-color: #f2f2f2;
+}
+.top-banner {
+  height: 140px;
+  position: relative;
+  min-width: 1200px;
+  overflow: hidden;
+}
+.top-banner .imgbox {
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+}
+.sec1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.searchbox-w {
+  background-color: #fff;
+}
+.searchbox-w .searchbox {
+  height: 104px;
+}
+.searchbox-w .searchbox .logo img {
+  width: 216px;
+  height: auto;
+  float: left;
+}
+.searchbox-w .searchbox .search-area {
+  width: 580px;
+  padding-top: 28px;
+  margin-left: 25px;
+  height: 40px;
+  position: relative;
+}
+.searchbox-w .searchbox .search-area i {
+  position: absolute;
+  display: inline-block;
+  top: 41px;
+  left: 20px;
+  color: #ABABAB;
+}
+.searchbox-w .searchbox .search-area input {
+  height: 40px;
+  width: 100%;
+  padding-left: 45px;
+  outline: none;
+  border: 2px solid #49b849;
+  border-radius: 40px;
+  background-color: #f4f4f4;
+}
+.searchbox-w .searchbox .search-area ::-webkit-input-placeholder {
+  color: #ABABAB;
+  font-family: 'yaHei';
+  font-weight: 500;
+  font-size: 14px;
+}
+.searchbox-w .searchbox .search-area .searchbtn {
+  display: block;
+  position: absolute;
+  right: -49px;
+  top: 28px;
+  font-size: 16px;
+  height: 44px;
+  line-height: 44px;
+  background-color: #49b849;
+  color: #fff;
+  padding: 0 35px;
+  border-radius: 0 20px 20px 0;
+}
+.searchbox-w .searchbox .search-area .searchbtn:hover {
+  background-color: #a4dba4;
+}
+.searchbox-w .searchbox .search-area .hotword-list li {
+  float: left;
+  margin: 5px 15px;
+}
+.searchbox-w .searchbox .search-area .hotword-list li a:hover {
+  color: #49b849;
+}
+.searchbox-w .searchbox .btn {
+  padding-left: 40px;
+  padding-top: 28px;
+  height: 40px;
+  line-height: 40px;
+}
+.searchbox-w .searchbox .btn .btn1 {
+  border: 1px solid #e0e3e8;
+  margin: 0 10px;
+  float: left;
+  padding: 0 25px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #858a91;
+  cursor: pointer;
+}
+.copyright {
+  background-color: #fff;
+  text-align: center;
+}
+.copyright .first {
+  text-align: center;
+}
+.copyright .first p {
+  margin: 10px auto;
+  text-align: center;
+  display: inline-block;
+  border-right: 2px solid #7c6666;
+  padding: 2px 2px;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+}
+.copyright .first a:hover {
+  color: #49b849;
+}
+.copyright .sec1200 {
+  margin: 10px auto;
+}
+.copyright .spri {
+  padding-bottom: 10px;
+}
+.copyright .spri a {
+  display: inline-block;
+  border: 1px solid #dddddd;
+  padding: 0 6px;
+  margin-right: 5px;
+}
+.copyright .spri a i {
+  display: inline-block;
+  padding: 1px 0 0 6px;
+  width: 12px;
+  height: 17px;
+  line-height: 17px;
+  background: url(../img/sprite.png) no-repeat;
+}
+.copyright .spri a .a {
+  background-position: -50px -44px;
+}
+.copyright .spri a .s {
+  background-position: -22px -24px;
+}
+.copyright .spri a .d {
+  background-position: -52px -20px;
+}
+.copyright .spri a .f {
+  background-position: -26px 0px;
+}
+.copyright .spri a .g {
+  background-position: -17px -44px;
+}
+.copyright .spri i.a:hover {
+  background: url(../img/sprite.png) no-repeat -33px -44px;
+}
+.copyright .spri i.s:hover {
+  background: url(../img/sprite.png) no-repeat 0px -24px;
+}
+.copyright .spri i.d:hover {
+  background: url(../img/sprite.png) no-repeat -52px 0px;
+}
+.copyright .spri i.f:hover {
+  background: url(../img/sprite.png) no-repeat 0px 0px;
+}
+.copyright .spri i.g:hover {
+  background: url(../img/sprite.png) no-repeat 0px -44px;
+}

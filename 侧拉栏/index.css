@@ -1,0 +1,164 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "微软雅黑";
+
+}
+
+.sidebar {
+    width: 64px;
+    height: 300px;
+    position: fixed;
+    top: 255px;
+    right: 0px;
+    border-radius: 5px;
+    background: white;
+}
+
+
+.sidebar ul li {
+    width: 50px;
+    margin: 0 auto;
+    height: 70px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.sidebar ul li.finally {
+    border: none;
+}
+
+.sidebar ul li.four {
+    border: none;
+}
+
+.sidebar ul li.first i {
+    display: block;
+    width: 44px;
+    height: 38px;
+    margin: 0 auto;
+    background: url(./images/btn-registry.png) no-repeat bottom center;
+}
+
+.sidebar ul li.first p {
+    color: orange;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.sidebar ul li.two i {
+    display: block;
+    width: 44px;
+    height: 28px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sidebar ul li.two p {
+    color: green;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.sidebar ul li.three a {
+    display: block;
+    width: 48px;
+    font-size: 12px;
+    color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.sidebar ul li.three i {
+    display: block;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sidebar ul li.four a {
+    display: block;
+    width: 48px;
+    font-size: 12px;
+    color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.sidebar ul li.four i {
+    display: block;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sidebar ul li.finally i {
+    display: block;
+    font-size: 30px;
+    color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sidebar ul li.finally a {
+    font-size: 12px;
+    color: black;
+    /* margin-top: 10px; */
+    text-align: center;
+    display: block;
+    display: none;
+    color: green;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+}
+
+
+.toggleli {
+    /*表示一个有下拉内容的li*/
+    position: relative;
+}
+
+.togglea {
+    /*表示一个有下拉内容的a*/
+    display: inline-block;
+    position: relative;
+    z-index: 20;
+    /*覆盖同位置的元素*/
+    /* border-left: 1px solid transparent; */
+    /*transparent表示透明的*/
+    border-right: 1px solid transparent;
+    /*border-left与border-right设置左右间距*/
+    /* padding: 0 10px 0 10px; */
+}
+
+/*获取焦点时： 给当前的li添加一个类 on
+  1.改变a标记的背景色
+  2.把togglemenu显示出来
+  3.更改手机图片 雪碧图
+  4.更改三角形
+  */
+.togglemenu {
+    /*表示下拉内容*/
+    display: none;
+    /*默认隐藏*/
+    position: absolute;
+    top: -67px;
+    right: 67px;
+    /*不要换行*/
+    /* padding: 0 20px 10px 20px; */
+    z-index: 3;
+}
+
+.on .togglea {
+    /*1.改变a标记的背景色，边框*/
+    color: forestgreen;
+}
+
+.on .togglemenu {
+    /*2.把togglemenu显示出来*/
+    display: block;
+}
